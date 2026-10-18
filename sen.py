@@ -2,7 +2,7 @@ import sys
 import xmltodict
 
 # 支持从命令行参数读取文件名，未提供时默认使用 sen.xml
-xml_filename = sys.argv[1] if len(sys.argv) > 1 else 'sen.xml'
+xml_filename = sys.argv[1] if len(sys.argv) > 1 else 'forrestcowcat.xml'
 
 try:
     with open(xml_filename, 'rb') as f:
